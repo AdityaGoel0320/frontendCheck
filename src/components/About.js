@@ -12,7 +12,7 @@ export default function About() {
     console.log("first")
     try {
       console.log("enter in about us froned section")
-      let res = await fetch("https://backend-check-gamma.vercel.app/about", {
+      let res = await fetch("https://basicbackend-dp45.onrender.com/about", {
         method: "GET",
         headers: {
           Accept: "applications/json",

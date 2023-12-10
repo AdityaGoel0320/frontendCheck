@@ -13,7 +13,7 @@ export default function Login() {
     console.log(email);
 
     try {
-      const response = await fetch('https://backend-check-gamma.vercel.app/signin', {
+      const response = await fetch('https://basicbackend-dp45.onrender.com/signin', {
         method: 'POST',
         credentials: 'include', // Include cookies in the request
         headers: {

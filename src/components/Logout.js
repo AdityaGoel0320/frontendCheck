@@ -6,7 +6,7 @@ const Logout = () => {
     let navigate=  useNavigate() ; 
     let logoutUser  = async()=>{
         console.log("first")
-        let res = await fetch("https://backend-check-gamma.vercel.app/logout" , {
+        let res = await fetch("https://basicbackend-dp45.onrender.com/logout" , {
             method: "GET",
             headers: {
               Accept: "applications/json",
