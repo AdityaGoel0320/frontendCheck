@@ -10,6 +10,8 @@ import Signup from './components/Signup';
 import Errorpage from './components/Errorpage';
 import Logout from './components/Logout';
 
+
+]
 export default function App() {
   return (
     <>
