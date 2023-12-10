@@ -6,7 +6,7 @@ export default function Contact() {
   let callContactFnc = async () => {
     console.log("contact fnc called")
 
-    let res = await fetch("https://basicbackend-dp45.onrender.com/getData", {
+    let res = await fetch("http://localhost:5000/getData", {
       method: "GET",
       headers: {
         Accept: "applications/json",
@@ -45,7 +45,7 @@ export default function Contact() {
 
     console.log(userData)
     try {
-      let res = await fetch("https://basicbackend-dp45.onrender.com/contact", {
+      let res = await fetch("http://localhost:5000/contact", {
         method: 'POST',
         credentials: 'include', // Include cookies in the request
         headers: {

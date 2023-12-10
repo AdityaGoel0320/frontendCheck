@@ -11,7 +11,7 @@ export default function Home() {
     console.log("first")
     try {
       console.log("enter in about us froned section")
-      let res = await fetch("https://basicbackend-dp45.onrender.com/getData", {
+      let res = await fetch("http://localhost:5000/getData", {
         method: "GET",
         headers: {
           Accept: "applications/json",

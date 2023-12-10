@@ -40,7 +40,7 @@ export default function Signup() {
     let { name, email, phone, work, password, cpassword } = obj;
     console.log(obj)
 
-    let response = await fetch("https://basicbackend-dp45.onrender.com/register", {
+    let response = await fetch("http://localhost:5000/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json" , 

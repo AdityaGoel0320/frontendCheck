@@ -12,7 +12,7 @@ export default function About() {
     console.log("first")
     try {
       console.log("enter in about us froned section")
-      let res = await fetch("https://basicbackend-dp45.onrender.com/about", {
+      let res = await fetch("http://localhost:5000/about", {
         method: "GET",
         headers: {
           Accept: "applications/json",

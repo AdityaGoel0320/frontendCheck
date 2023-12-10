@@ -13,7 +13,7 @@ export default function Login() {
     console.log(email);
 
     try {
-      const response = await fetch('https://basicbackend-dp45.onrender.com/signin', {
+      const response = await fetch('http://localhost:5000/signin', {
         method: 'POST',
         credentials: 'include', // Include cookies in the request
         headers: {

@@ -6,7 +6,7 @@ const Logout = () => {
     let navigate=  useNavigate() ; 
     let logoutUser  = async()=>{
         console.log("first")
-        let res = await fetch("https://basicbackend-dp45.onrender.com/logout" , {
+        let res = await fetch("http://localhost:5000/logout" , {
             method: "GET",
             headers: {
               Accept: "applications/json",
