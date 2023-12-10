@@ -11,7 +11,7 @@ import Errorpage from './components/Errorpage';
 import Logout from './components/Logout';
 
 
-]
+
 export default function App() {
   return (
     <>
